@@ -23,7 +23,8 @@ PRODUCT_PACKAGES += \
     DMConfigUpdateLight \
     HiddenMenuLight \
     ims \
-    MotoSignatureApp
+    MotoSignatureApp \
+    MySignatureApp
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
