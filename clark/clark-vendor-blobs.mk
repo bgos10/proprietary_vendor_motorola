@@ -145,6 +145,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/lib/libjscore.so:system/lib/libjscore.so \
     vendor/motorola/clark/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
     vendor/motorola/clark/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/motorola/clark/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/clark/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/motorola/clark/proprietary/lib64/libbson.so:system/lib64/libbson.so \
     vendor/motorola/clark/proprietary/lib/libbson.so:system/lib/libbson.so \
