@@ -32,8 +32,7 @@ PRODUCT_PACKAGES += \
     DMConfigUpdateLight \
     HiddenMenuLight \
     ims \
-    MotoSignatureApp \
-    MySignatureApp
+    MotoSignatureApp
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
