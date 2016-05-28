@@ -18,6 +18,14 @@
 
 $(call inherit-product, vendor/motorola/clark/clark-vendor-blobs.mk)
 
+# Prebuilt APKs
+PRODUCT_PACKAGES += \
+    DMConfigUpdateLight \
+    HiddenMenuLight \
+    ims \
+    MotoSignatureApp \
+    MySignatureApp
+
 # Prebuilt jars
 PRODUCT_PACKAGES += \
     com.google.widevine.software.drm \
@@ -26,13 +34,6 @@ PRODUCT_PACKAGES += \
     org.simalliance.openmobileapi \
     qcnvitems \
     qcrilhook
-
-# Prebuilt APKs
-PRODUCT_PACKAGES += \
-    DMConfigUpdateLight \
-    HiddenMenuLight \
-    ims \
-    MotoSignatureApp
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
@@ -47,6 +48,10 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     SprintDM
 
+# Prebuilt libs needed for compilation
+PRODUCT_PACKAGES += \
+
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \
     libtime_genoff
+
